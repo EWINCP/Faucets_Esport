@@ -13,6 +13,18 @@
                 box-sizing: border-box;
                 width: 100%;
             }
+
+@media (min-width: 576px) {
+  #wrapper {width:90%; margin: 0 auto;}
+  #content {width:70%; float:left;}
+  #sidebar {width:30%; float:right;}
+}
+
+@media (min-width: 992px) {
+  #wrapper {width:90%; margin: 0 auto;}
+  #content {width:70%; float:left;}
+  #sidebar {width:30%; float:right;}
+}
             
             body {
                 margin: 0;
